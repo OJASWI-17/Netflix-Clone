@@ -82,11 +82,11 @@ h4 {
 
 .hand {
     position: absolute;
-    bottom: 10px;  
+     top:78vh ;
     left: 50%;
     transform: translateX(-50%);
     width: 100px;  
-    z-index: 100; /* Higher z-index to place the hand above the button */
+    z-index: 100;  
     animation: handMove 2s ease-in-out infinite;
 }
 
