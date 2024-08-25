@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>YOU ARE NOT RICK ROLLED !</h1>
+    <h4>404 - Not Found!</h4>
+    <button class="box">
+        
+            <div id="in">OPEN THE LINK ON YOUR DESKTOP</div>
+    
+    </button>
+    <div class="hand">
+        <img src="https://icon-library.com/images/finger-pointing-icon/finger-pointing-icon-22.jpg" alt="Pointing Hand">
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        const button = document.querySelector('.box');
+    
+        button.addEventListener('click', () => {
+            
+            const rickRollUrl = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+            
+             window.open(rickRollUrl, '_blank');
+        });
+    });
+    </script>
+     
+</body>
+</html>
