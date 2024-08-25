@@ -8,7 +8,7 @@ function isMobileDevice() {
  
 if (isMobileDevice()) {
  
-  window.location.href = 'https://example.com/not-supported';
+  window.location.href = 'rickroll.html';
 }
 
 let faqboxes = document.querySelectorAll('.faqbox');
